@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<!--
+  Miniport by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+  <title>Coniston Crime Analysis</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+  <!-- Nav -->
+  <nav id="nav">
+    <ul class="container">
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <!-- Content -->
+  <article id="work" class="wrapper style2">
+    <div class="container">
+      <header>
+        <h2>Coniston Crime Analysis</h2>
+        <h3>Geospatial Analysis in ArcGIS Pro for Crime Prevention and Robber Identification</h3>
+      </header>
+      <div class="row">
+        <div class="col-12">
+          <section class="box">
+            <img src="images/coniston.jpg" alt="Coniston Crime Map" content="width=device-width, initial-scale=0.8, user-scalable=no" />
+            <p>Explore the map showcasing robbery locations and related analysis in Coniston, Ontario.</p>
+          </section>
+          <section class="box">
+            <ul style="text-align: left;">
+            <h3>Summary</h3>
+            
+            <p>
+              This report presents a geospatial analysis of a series of convenience store robberies and shootings in Coniston, Ontario, conducted on November 7, 2023. 
+              The analysis was performed using ArcGIS Pro to assist police in their investigation by mapping critical locations and determining areas for ground 
+              and marine search operations.
+            </p>
+            
+
+            <h4>Objectives</h4>
+            </ul>
+            <ul style="text-align: left;">
+              <li>Map the locations of robberies and related shootings.</li>
+              <li>Determine the ground search area around robbery locations.</li>
+              <li>Identify river-road intersections for potential disposal sites.</li>
+              <li>Highlight critical bridges for marine investigations.</li>
+            </ul>
+            <ul style="text-align: left;">
+            <h4>Findings and Analysis</h4>
+
+            <h5>1. Ground Search Area</h5>
+            <p>
+              A buffer of 250 meters was created around the convenience stores affected by the robberies. 
+              Using geoprocessing tools, the total area for ground search was calculated as 1,144,537.39 square meters. 
+              This unified buffer provides a focused area for police officers to search for potential evidence.
+            </p>
+
+            <h5>2. River-Road Intersections</h5>
+            <p>
+              An intersect analysis of Coniston's road and river networks identified 10 intersections. 
+              These points are potential disposal sites where the suspect might have discarded evidence.
+            </p>
+
+            <h5>3. Robbery Sequence</h5>
+            <p>Based on the timestamp data, the robberies occurred in the following sequence:</p>
+            <ul>
+              <li>FID 4 (9:10 am)</li>
+              <li>FID 1 (9:18 am)</li>
+              <li>FID 3 (9:27 am)</li>
+              <li>FID 5 (9:34 am)</li>
+              <li>FID 0 (9:39 am, shooting)</li>
+              <li>FID 2 (9:47 am, shooting)</li>
+            </ul>
+            <p>The suspect demonstrated a rapid movement pattern, completing all six robberies within a 37-minute window.</p>
+
+            <h5>4. Bridges for Marine Investigation</h5>
+            <p>
+              Data analysis and spatial mapping indicated two critical bridges where the suspect may have discarded evidence:
+            </p>
+            <ul>
+              <li>OBJECTID 408 (Highway 17 East)</li>
+              <li>OBJECTID 3193 (Government Road)</li>
+            </ul>
+            <p>
+              Both bridges are near water bodies and accessible from the robbery locations, making them priorities for marine unit operations.
+            </p>
+
+            <h4>Visual Representation</h4>
+            <p>
+              A map layout was created to showcase the analysis, including:
+            </p>
+            <ul>
+              <li>Locations of robberies with timestamps.</li>
+              <li>Buffer zones around the stores.</li>
+              <li>River-road intersections.</li>
+              <li>Highlighted bridges for marine investigation.</li>
+            </ul>
+            <p>The map was saved as Assignment6MohammadAadilShaikh.pdf for further reference.</p>
+
+            <h4>Conclusion</h4>
+            <p>
+              This geoprocessing analysis provides actionable insights for law enforcement:
+            </p>
+            <ul>
+              <li>A focused ground search area enhances operational efficiency.</li>
+              <li>Identifying critical intersections and bridges directs marine unit efforts effectively.</li>
+              <li>Mapping robbery patterns supports investigative strategies and public communication.</li>
+            </ul>
+            <p>
+              The use of ArcGIS Pro allowed for precise spatial analysis, aiding in the comprehensive investigation of the Coniston robberies.
+            </p>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
